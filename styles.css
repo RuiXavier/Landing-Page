@@ -18,19 +18,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    padding: 24px;
     max-height: 200px;
-    margin-left:30rem;
-    margin-right: 30rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-bottom: 6.5rem;
 }
 
 .logo img {
-    width: 100px;
+    width: 4.5rem;
 }
 
 .header a { 
     color: #858585;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .section-one {
@@ -42,5 +43,72 @@ body {
 }
 
 
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:25rem;
+    margin-right: 25rem;
+    margin-bottom: 10rem;
+    padding: 0px;
+    gap: 10rem;
+}
 
+.hero-image img {
+    height: auto;
+    width: 50rem;
+}
 
+.hero-and-text {
+    width: 750px;
+    min-width: 350px;
+    gap: 1rem;
+}
+
+.hero {
+    font-size: 6.5rem;
+    font-weight: 800;
+    color: white;
+}
+
+.hero-and-text .text {
+    font-size: 2rem;
+    color: gainsboro;
+}
+
+.hero-and-text button{
+    border-radius: 15px;
+    background-color: rgb(0, 128, 255);
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-weight: 1000;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    box-shadow: 0 9px #999;
+}
+
+.hero-and-text button:hover {
+    color: rgb(66, 153, 140);
+    background-color: white;
+}
+
+.hero-and-text button:active {
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4rem;
+}
+
+.info {
+    color: rgb(58, 63, 84);
+    font-size: 4rem;
+}
