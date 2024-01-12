@@ -63,6 +63,7 @@ body {
     width: 750px;
     min-width: 350px;
     gap: 1rem;
+    user-select: none;
 }
 
 .hero {
@@ -86,7 +87,7 @@ body {
     font-weight: 1000;
     font-size: 1.1rem;
     margin-top: 1rem;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 3px #999;
 }
 
 .hero-and-text button:hover {
@@ -96,8 +97,8 @@ body {
 
 .hero-and-text button:active {
     background-color: white;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+    box-shadow: 0 0px #666;
+    transform: translateY(3px);
 }
 
 .section-two {
