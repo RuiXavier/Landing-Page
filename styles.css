@@ -15,6 +15,8 @@ body {
 }
 
 .header {
+    position: sticky; /* TODO Sticky header */
+    background-color: rgb(83, 89, 112);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +25,17 @@ body {
     margin-left: 25rem;
     margin-right: 25rem;
     margin-bottom: 6.5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo .text {
+    font-size: 3rem;
+    color: white;
+    font-weight: 600;
 }
 
 .logo img {
@@ -57,6 +70,7 @@ body {
 .hero-image img {
     height: auto;
     width: 50rem;
+    border-radius: 25px;
 }
 
 .hero-and-text {
@@ -67,7 +81,7 @@ body {
 }
 
 .hero {
-    font-size: 6.5rem;
+    font-size: 5rem;
     font-weight: 800;
     color: white;
 }
@@ -107,9 +121,139 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 4rem;
+    margin-bottom: 8rem;
 }
 
 .info {
     color: rgb(58, 63, 84);
     font-size: 4rem;
 }
+
+.image img{
+    height: auto;
+    width: 20rem;
+    border-radius: 12px;
+}
+
+.destinations {
+    display: flex;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image .text {
+    font-size: 2rem;
+    padding: 0.5rem;
+    width: 20rem;
+}
+
+.section-three {
+    background-color: rgb(211, 205, 205);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.review {
+    margin-bottom: 8rem;
+}
+.review .quote {
+    font-size: 4rem;
+    width: 80rem;
+}
+
+.review .text {
+    font-size: 2rem;
+    text-align: end;
+    font-weight: 700;
+}
+
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 128, 255);
+    border-radius: 12px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: 10rem;
+    width: 100rem;
+}
+
+.container .advertisement {
+    margin-left: 10rem;
+    color: white;
+}
+
+.advertisement .slogan{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.2  rem;
+}
+
+.advertisement .text {
+    font-size: 1rem;
+    color: rgb(218, 211, 211);
+}
+
+.container button {
+    border-radius: 15px;
+    background-color: rgb(0, 128, 255);
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-color: white;
+    font-weight: 1000;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    box-shadow: 0 3px #999;
+    margin-right: 10rem;
+}
+
+.container button:hover {
+    color: rgb(66, 153, 140);
+    background-color: white;
+    border-color: black;
+}
+
+.container button:active {
+    background-color: white;
+    box-shadow: 0 0px #666;
+    transform: translateY(3px);
+}
+
+.section-five {
+    background-color: rgb(58, 63, 84);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    color: white;
+}
+
+.footer a {
+    color: #858585;
+    font-size: 1rem;
+}
+
